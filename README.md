@@ -1,14 +1,34 @@
----
-name: HTML Starter
-slug: html-starter-with-analytics
-description: HTML5 template with analytics and advanced routing configuration.
-deployUrl: https://vercel.com/new/clone?repository-url=https://github.com/vercel/examples/tree/main/solutions/html&project-name=html
-relatedTemplates:
-  - nextjs-boilerplate
----
+# Todo App
 
-# HTML Starter
+## Description
+This Todo App is a simple, interactive web application for managing your daily tasks. It allows users to add, delete, and view tasks in a user-friendly interface.
 
-This is a starter HTML5 templates which is configured with Vercel Analytics (through a `script` tag), advanced routing with [Vercel Edge Middleware](https://vercel.com/docs/concepts/functions/edge-middleware), as well as some basic styles
+## Features
+- **Add Tasks**: Users can add new tasks to their todo list.
+- **Delete Tasks**: Users can delete tasks once completed or if no longer needed.
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/examples/tree/main/solutions/html&project-name=html)
+## Technologies Used
+- HTML
+- CSS
+- JavaScript
+
+## Setup and Installation
+To set up this project on your local machine:
+
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/akshansh-s/Simple-todo.git
+
+
+## How to Use
+1. Adding a Task
+Enter the task title and description in the input fields.
+Click the "Add todo" button to add the task to the list.
+
+2. Deleting a Task
+Click the "Completed!" button next to a task to delete it from the list.
+
+## Contributing
+Contributions to the project are welcome! Please feel free to fork the repository and submit pull requests.
+
+
