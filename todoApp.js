@@ -39,10 +39,6 @@ let globalId = 1;
 
     function updateState(newTodos) {
       // calculate the diff b/w newTodos and oldTodos.
-      // More specifically, find out what todos are - 
-      // 1. added
-      // 2. deleted
-      // 3. updated
       const added = [];
       const deleted = [];
       const updated = [];
@@ -87,8 +83,6 @@ let globalId = 1;
         }
       }
 
-     
-      // calculate these 3 arrays
       // call addTodo, removeTodo, updateTodo functions on each of the elements
       added.forEach(todo => addTodoToDom(todo));
       deleted.forEach(todo => removeTodoFromDom(todo.id));
